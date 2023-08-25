@@ -17,7 +17,8 @@ class ThemeAsset extends AssetBundle
 
     public $css = [
         YII_ENV !== 'prod' ? 'bs5/css/bootstrap.css' : 'bs5/css/bootstrap.min.css',
-        'fonts/roboto/stylesheet.css',
+        YII_ENV !== 'prod' ? 'bs5/css/bootstrap-utilities.css' : 'bs5/css/bootstrap-utilities.min.css',
+        'fonts/gilroy/stylesheet.css',
         'fonts/bebas/stylesheet.css',
         'fonts/fa/stylesheet.css',
         'css/app.css',
