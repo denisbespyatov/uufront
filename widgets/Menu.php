@@ -1,7 +1,7 @@
 <?php
 
 
-namespace denisbespyatov\uufront\widgets;
+namespace denisbespyatov\upgradeui\widgets;
 
 use yii\helpers\Html;
 use yii\helpers\Url;
